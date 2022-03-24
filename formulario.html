@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang= "es-ES">
+<head>
+	<meta charset= "UFT-8">
+	<meta name="Ichiban Aidoru" author="Viviana D">
+	<title>Nico Yazawa</title>
+	<link type="image/x-icon" href="img/icon.png" rel="icon">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+	<link type="text/css" rel="stylesheet" href="css/normalize.css"/>
+
+</head>
+<body>
+	<div class="caja">
+		<button type="button"><a href="index.html">Regresar al inicio</a></button>
+    <form name="form" action="index.html" method="get" target="_self" autocomplete="autocomplete" novalidate> 
+		<h3>Ingresa tus datos y registrate para acceder a más contenido</h3>
+		<label for="name" class="label">Nombre Usuario</label>
+		<input name="nombre" id="nombre" type="text" placeholder="Ingresar usuario">
+		<label for="password" class="label">Contraseña</label>
+		<input name="password" id="password" type="password" placeholder="Ingresar contraseña">
+	
+		<label for="edad" class="label">Ingresa tu edad</label>
+		<input name="edad" id="edad" type="number" placeholder="Edad en números">
+		
+		<label for="email" class="label">Correo electrónico</label>
+		<input type="email" name="email" id="email" placeholder="ingrese su correo">
+
+		<label for="ciudad1" class="label">Selecciona una región</label>
+		<select name="ciudad1" id="ciudad1">
+		<option value="0" selected>Elige</option>
+		<optgroup label="Suramérica">
+		<option value="1">Colombia</option>
+		<option value="2">Perú</option>
+		<option value="3">Otro país</option></optgroup>
+		<optgroup label="Centroamérica">
+		<option value="4">Costa Rica</option>
+		<option value="5">Otro país</option></optgroup>
+		<optgroup label="Norteamérica">
+		<option value="6">Estados Unidos</option>
+		<option value="7">Canadá</option>
+		<option value="8">México</option></optgroup>
+		<optgroup label="Fuera de américa">
+		<option value="9">España</option>
+		<option value="10">Otro país</option></optgroup>
+		</select><
+		<input id="botonf" type="submit" value="Enviar">
+		<input id="botonf" type="reset" value="Restablecer">
+	</form>
+	</div>
+</body>
+</html>
